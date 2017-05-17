@@ -199,7 +199,7 @@ class OneofGenerator {
                 return f
             }
         }
-        assert(false)
+        fatalError("Can't happen")
     }
 
     func generateMainEnum(printer p: inout CodePrinter) {
